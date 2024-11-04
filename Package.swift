@@ -6,8 +6,9 @@ import PackageDescription
 let package = Package(
 	name: "ogg-binary-xcframework",
 	platforms: [
-		.macOS(.v10_15),
-		.iOS(.v14),
+		.macOS(.v11),
+		.iOS(.v15),
+		.tvOS(.v15),
 	],
 	products: [
 		// Products define the executables and libraries a package produces, making them visible to other packages.
@@ -22,7 +23,7 @@ let package = Package(
 		// Targets can depend on other targets in this package and products from dependencies.
 		.binaryTarget(
 			name: "ogg",
-			url: "https://github.com/sbooth/ogg-binary-xcframework/releases/download/0.1.0/ogg.xcframework.zip",
-			checksum: "0a500cbd77ea5ace92908968af1aa8acf40f54f0ba90f8b8914a229ea8590f54"),
+			url: "https://github.com/sbooth/ogg-binary-xcframework/releases/download/0.1.1/ogg.xcframework.zip",
+			checksum: "87417df13642ab4b20a70a02fc9621929fab9dc18a4b95dc31000fcdb8560b07"),
 	]
 )
