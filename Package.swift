@@ -23,7 +23,7 @@ let package = Package(
 		// Targets can depend on other targets in this package and products from dependencies.
 		.binaryTarget(
 			name: "ogg",
-			url: "https://github.com/sbooth/ogg-binary-xcframework/releases/download/0.1.2/ogg.xcframework.zip",
-			checksum: "b6ab2dcf89076ca9488ef32d810d0343a2072fadd9eb94247f498b7b87070e2e"),
+			url: "https://github.com/sbooth/ogg-binary-xcframework/releases/download/0.1.3/ogg.xcframework.zip",
+			checksum: "0c06ea645c6ca187e66442717eb856c09e2b969545e880300639b41f7b83ae98"),
 	]
 )
